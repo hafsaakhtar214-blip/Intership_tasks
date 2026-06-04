@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Layout</title>
+</head>
+
+<style>
+    header,nav,footer{
+        margin-top:0px;
+        margin-right:10px;
+        margin-bottom:10px;
+        width:100%;
+        height:80px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #e7e9ec; 
+    }
+     section {
+            display: grid;
+            grid-template-columns: 20% 1fr 20%;
+            gap: 10px;
+            height: 325px;
+        }
+
+        aside,
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #e7e9ec;
+        }
+
+        footer {
+            margin-top: 10px;
+            margin-bottom:5px;
+        }
+
+</style>
+
+<body>
+    <header>Header</header>
+    <nav>NavBar</nav>
+    <section>
+        <aside>Content</aside>
+        <main>Main Content</main>
+        <aside>Content</aside>
+    </section>
+    <footer>Footer</footer>
+</body>
