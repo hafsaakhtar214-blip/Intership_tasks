@@ -1,0 +1,148 @@
+body{
+    background:#f5f5f5;
+    color:#222;
+    overflow-x:hidden;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0px;
+    padding:0px;
+}
+
+.hero{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:40px 8%;
+}
+
+.hero-left{
+    width:45%;
+}
+
+.logo{
+    width:280px;
+    margin-bottom:25px;
+}
+
+.hero h2{
+    letter-spacing:5px;
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+.hero p{
+    color:#666;
+    font-size:22px;
+    margin-bottom:25px;
+}
+
+.hero-right{
+    width:50%;
+    text-align:center;
+    margin-right:50px;
+}
+
+.hero-right img{
+    width:100%;
+    max-width:550px;
+    filter:drop-shadow(0 15px 25px rgba(0,0,0,0.15));
+}
+
+
+.store-buttons{
+    display:flex;
+    gap:15px;
+}
+
+.store-buttons img{
+    width:170px;
+    cursor:pointer;
+}
+
+.feature{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:50px;
+    padding:30px 8%;
+}
+
+.reverse{
+    flex-direction:row-reverse;
+}
+
+.feature-image{
+    width:50%;
+    text-align:center;
+}
+
+.feature-image img{
+    width:100%;
+    max-width:500px;
+    filter:drop-shadow(0 15px 25px rgba(0,0,0,0.15));
+}
+
+.feature-text{
+    width:40%;
+    text-align:center;
+}
+
+.feature-text h2{
+    letter-spacing:8px;
+    font-size:34px;
+    margin-bottom:20px;
+}
+
+.feature-text p{
+    font-size:24px;
+    color:#666;
+    line-height:1.5;
+}
+
+.vector-icons{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.vector-icons img{
+    width:450px;
+    max-width:100%;
+    opacity:0.5;
+}
+
+footer{
+    text-align:center;
+    padding:60px 20px;
+}
+
+footer h3{
+    margin-bottom:25px;
+    font-size:28px;
+}
+
+.footer-store{
+    justify-content:center;
+    margin-bottom:30px;
+}
+
+.contact{
+    font-size:20px;
+    color:#666;
+    margin-bottom:30px;
+}
+
+.contact a{
+    color:#3c8dff;
+    text-decoration:none;
+}
+
+.footer-logo{
+    width:70px;
+    margin-bottom:10px;
+}
+
+.copyright{
+    letter-spacing:4px;
+    color:#777;
+}
+
